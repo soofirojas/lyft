@@ -1,3 +1,333 @@
-/*
- * Estilos de tu proyecto
- */
+/* caracteríticas generales del coumento*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+/*Propiedades y estilos menú */
+  .fixed-menu{
+    position: fixed;
+    padding: 30px;
+    margin: 10px 30px;
+    z-index: 1100;
+  }
+
+  .menu-item {
+    margin: 0 15px;
+  }
+  
+  .right-menu-items{
+    box-sizing: content-box;
+    text-align: right;
+    color: #fff;
+    vertical-align: top;
+    font-size: 24px;
+    font-weight: 100;
+    position: relative;
+    right: -150%;
+  
+  }
+
+  .float-right{
+    float: right;
+  }
+
+  /*Menú flotado a la izquierda */
+  .float-left {
+    float: left;
+  }
+  
+ /*caracteristicas logo*/
+  
+  .logo {
+    width: 63px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  
+  /*Sección morada con celular */
+
+  header#first-section {
+    height: 1174px;
+    background: linear-gradient(#691B84, #681C82, #691B84, #2B1E66);
+  }
+  
+
+  #first-section img.gif {
+    width: 1350px;
+    height: 740px;
+    background-image: linear-gradient(to left rgb(110,38,139), rgba(110,38,139,.5));
+    position: relative;
+    bottom: 110px;
+  }
+  
+  /*recuadro blanco en header*/
+
+  #square {
+    color: #fff;
+    line-height: 1.4;
+    width: 35%;
+    height: 35%;
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+    display: inline-block;
+  }
+  
+  #square p {
+    font-size: 18px;
+  }
+  
+  h1{
+    font-size: 40px;
+    color: #352384;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  h5 {
+    font-weight: 500;
+  }
+  
+  .fs-one{
+    float:right;
+  }
+
+  .phone {
+   position: relative;
+   left: 250px;
+   top: -50px;
+   width: 45%;
+   height: 45%;
+    
+
+  }
+  
+  aside#sign-up {
+    width: 561px;
+    height: 421px;
+    background-color: #FFF;
+    z-index: 900;
+    position: absolute;
+    top: 110px;
+    right: 0;
+  }
+  
+  div.su-container {
+    padding: 65px;
+  }
+  
+  .ph-number {
+    border: none;
+    border-bottom: .3px solid #000;
+    width: 450px;
+    padding: 10px 0 10px 0;
+  }
+  
+  input {
+    padding-bottom: 215px;
+    outline: none;
+  }
+  
+  div.links-top {
+    margin: 30px 0 30px 0;
+  }
+  
+  .pink-button {
+    background: #FF00BF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px;
+  }
+  
+  span {
+    color: #FF00BF;
+  }
+  
+  p.little {
+    font-size: 9px;
+    font-weight: 500;
+  }
+  
+/*secciones con video*/
+
+  .first-video{
+      height: 480px;
+      background: #fff;
+  }
+  
+  .amplify-your-ride{
+    float: right;
+  }
+  
+  .paragraph-1{
+    position: relative;
+    top: 30px;
+    width: 30%;
+    left: 50px;
+    line-height: 20pt;
+  }
+  
+  .paragraph-1 > h3{
+    font-size: 18pt;
+  }
+
+  /* segundo video*/
+  .second-video{
+    height: 480px;
+    background: #fff;
+}
+
+.june{
+  float: left;
+  margin-top: -4px;
+}
+
+.paragraph-2{
+  position: relative;
+  left: 50px;
+  top: 30px;
+  width: 30%;
+  display: inline-block;
+  line-height: 20pt;
+}
+
+/*footer*/
+
+footer{
+  display: block;
+  background-color: #333447;
+  position: relative;
+  height: 500px;
+}
+
+.columns{
+  position: absolute;
+  left: 15%;
+  top: 35px;
+}
+
+ .columns > h3{
+  font-size: 19px;
+  font-weight: 400;
+}
+
+footer > section.columns > ul{
+  display: inline-block;
+  width: 150px;
+  margin-left: 100px;
+  text-align: left;
+  line-height: 40px;
+}
+
+footer > .columns > ul> li.first{
+    margin-top: 20px;
+}
+
+footer > .columns > ul > li{
+  list-style: none;
+  color: white;
+
+  font-weight: 100;
+}
+
+li a:hover{
+  color: #FF00BF;
+  text-decoration: underline;
+}
+
+ .fourth-column{
+  position: relative;
+  top: 20px;
+  margin-left: 50px;
+}
+
+li > a{
+  text-decoration: none;
+  color: white;
+}
+
+.icon_apple{
+  padding-top: 15px;
+  width: 75%;
+}
+.icon_google{
+  width: 75%;
+  height: auto;
+  padding-top: 15px;
+}
+.icon_microsoft{
+  width: 75%;
+  height: auto;
+  padding-top: 15px;
+}
+
+.division_line {
+  position: relative;
+  left: 10%;
+  top: 250px;
+  border: 1px solid white;
+  width: 650px;
+  margin-left: 230px;
+ 
+  text-align: center;
+}
+
+.icons-terms{
+  position: relative;
+  left: 10%
+}
+
+.social_media_icons{
+  display: inline-block;
+   color: white;
+  padding: 5% 0 3% 2%;
+  margin: 0;
+  position: relative;
+  left: 38%;
+  top: 250px;
+}
+
+.icon-facebook:before{
+  content: "\ea90";
+}
+.icon-instagram:before{
+  content: "\ea92";
+}
+.icon-twitter:before{
+  content: "\ea96";
+}
+.icon-facebook, .icon-instagram, .icon-twitter{
+  position: relative;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 50px;
+  padding: 8px;
+  text-align: center;
+  
+}
+
+footer > p{
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+ p.copyright{
+  position: relative;
+  left: 0%;
+  top: 300px;
+  text-align: center;
+}
